@@ -12,18 +12,18 @@ Distribution Model used (for calculating match results): joint probability mass 
 Usage: 
 
 1. Deploy a new pod in runpod.io (we used 1 GPU RTX 4090)
-2. Install dependencies:  pip install pandas numpy scipy transformers accelerate matplotlib
+2. Install dependencies:  ```pip install pandas numpy scipy transformers accelerate matplotlib```
 3. Upload files to Jupyter Lab and change the variable CSV_PATH for every case
 4. Open Python scripts to be tested for each case:
 ```python liga_pod.py```
-<python mundial_pod.py>
+```python mundial_pod.py```
 5. To check activations,
-python see_activations.py
+```python see_activations.py```
 Changing the name of the variable for each case
 
 6. To see the heatmap and activations by team (to shift from 386 to 20 columns in table) (in LaLiga case):
-python activations_by_team.py
-python heatmap_by_team.py
+```python activations_by_team.py```
+```python heatmap_by_team.py```
 
 
 References: 
