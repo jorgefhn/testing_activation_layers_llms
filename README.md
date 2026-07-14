@@ -15,7 +15,7 @@ Usage:
 2. Install dependencies:  pip install pandas numpy scipy transformers accelerate matplotlib
 3. Upload files to Jupyter Lab and change the variable CSV_PATH for every case
 4. Open Python scripts to be tested for each case:
-<python liga_pod.py>
+'''python liga_pod.py'''
 <python mundial_pod.py>
 5. To check activations,
 python see_activations.py
